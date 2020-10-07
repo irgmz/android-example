@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         Rollbar.init(this);
-        Rollbar.instance().error(new Exception("This is a test error From Ian's android project")); //remove this after initial testing
+        Rollbar.instance().error(new Exception("This is a test error From Ivan's android project")); //remove this after initial testing
 
         setContentView(R.layout.activity_main);
 
